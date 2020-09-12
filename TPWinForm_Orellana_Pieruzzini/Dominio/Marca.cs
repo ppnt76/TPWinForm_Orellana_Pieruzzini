@@ -13,7 +13,11 @@ namespace Dominio
             public string DescripcionMarca { get; set; }
 
             public Marcas() { }
-           
+
+        public override string ToString()
+        {
+            return DescripcionMarca;
         }
+    }
    
 }

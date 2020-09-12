@@ -32,11 +32,11 @@ namespace Catologo
                 aux.Nombre = lector.GetString(2);
                 aux.Descripcion = lector.GetString(3);
 
-                Marcas marcas = new Marcas();
-                aux.marca = lector.GetString(5);
+                aux.Marca = new Marcas();
+                aux.Marca.DescripcionMarca = lector.GetString(6);
 
-                Categoria categoria = new Categoria();
-                aux.categoria = lector.GetString(6);
+                aux.categoria = new Categoria();
+                aux.categoria.DescripcionCategoria = lector.GetString(5);
 
                 aux.Precio = lector.GetDecimal(4);
                 

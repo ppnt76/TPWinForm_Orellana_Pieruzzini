@@ -10,8 +10,13 @@ namespace Dominio
     {
         private int id;
 
-        public string DescricionCategoria { get; set; }
+        public string DescripcionCategoria { get; set; }
 
         public Categoria() { }
+
+        public override string ToString()
+        {
+            return DescripcionCategoria;
+        }
     }
 }
