@@ -19,7 +19,7 @@ namespace Catologo
 
             conexion.ConnectionString = "data source= DESKTOP-GPR5PDL\\SQLEXPRESS; initial catalog=CATALOGO_DB; integrated security=sspi";
             comando.CommandType = System.Data.CommandType.Text;
-            comando.CommandText = "select P.Id, P.Codigo, P.Nombre, P.Descripcion, C.Descripcion, D.Descripcion from ARTICULOS P, CATEGORIAS C, MARCAS D WHERE(P.Id = C.Id) and(P.Id = D.Id)";
+            comando.CommandText = "select P.Id, P.Codigo, P.Nombre, P.Descripcion, P.Precio, C.Descripcion, D.Descripcion from ARTICULOS P, CATEGORIAS C, MARCAS D WHERE(P.Id = C.Id) and(P.Id = D.Id)";
             comando.Connection = conexion;
 
             conexion.Open();
@@ -33,11 +33,12 @@ namespace Catologo
                 aux.Descripcion = lector.GetString(3);
 
                 Marcas marcas = new Marcas();
-                aux.marca = lector.GetString(4);
+                aux.marca = lector.GetString(5);
 
                 Categoria categoria = new Categoria();
-                aux.categoria = lector.GetString(5);
-                
+                aux.categoria = lector.GetString(6);
+
+                aux.Precio = lector.GetDecimal(4);
                 
                 lista.Add(aux);
 

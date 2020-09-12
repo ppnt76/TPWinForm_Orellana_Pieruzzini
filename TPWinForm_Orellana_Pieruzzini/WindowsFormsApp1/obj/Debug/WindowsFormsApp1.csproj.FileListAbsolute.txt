@@ -30,3 +30,19 @@ C:\Users\carlos\Desktop\tpProg3Pruebas\TPWinForm_Orellana_Pieruzzini\WindowsForm
 C:\Users\carlos\Desktop\tpProg3Pruebas\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 C:\Users\carlos\Desktop\tpProg3Pruebas\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\carlos\Desktop\tpProg3Pruebas\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\bin\Debug\Catologo.dll
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\bin\Debug\Dominio.dll
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\bin\Debug\Catologo.pdb
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\bin\Debug\Dominio.pdb
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormListado.resources
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

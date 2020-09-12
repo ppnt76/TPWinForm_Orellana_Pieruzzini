@@ -39,7 +39,7 @@
             // 
             // btnListadoArticulos
             // 
-            this.btnListadoArticulos.Location = new System.Drawing.Point(62, 60);
+            this.btnListadoArticulos.Location = new System.Drawing.Point(75, 60);
             this.btnListadoArticulos.Name = "btnListadoArticulos";
             this.btnListadoArticulos.Size = new System.Drawing.Size(148, 28);
             this.btnListadoArticulos.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(198, 286);
+            this.btnSalir.Location = new System.Drawing.Point(250, 286);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(136, 33);
             this.btnSalir.TabIndex = 1;
@@ -59,54 +59,54 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(62, 134);
+            this.button1.Location = new System.Drawing.Point(75, 134);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(148, 28);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Listado de Articulos\r\n";
+            this.button1.Text = "Busqueda";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(62, 207);
+            this.button2.Location = new System.Drawing.Point(75, 207);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(148, 28);
             this.button2.TabIndex = 3;
-            this.button2.Text = "Listado de Articulos\r\n";
+            this.button2.Text = "Detalle";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(337, 134);
+            this.button3.Location = new System.Drawing.Point(400, 134);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(148, 28);
             this.button3.TabIndex = 4;
-            this.button3.Text = "Listado de Articulos\r\n";
+            this.button3.Text = "Modificar";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(337, 207);
+            this.button4.Location = new System.Drawing.Point(400, 207);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(148, 28);
             this.button4.TabIndex = 5;
-            this.button4.Text = "Listado de Articulos\r\n";
+            this.button4.Text = "Eliminar";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(337, 60);
+            this.button5.Location = new System.Drawing.Point(400, 60);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(148, 28);
             this.button5.TabIndex = 6;
-            this.button5.Text = "Listado de Articulos\r\n";
+            this.button5.Text = "Agregar";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(534, 331);
+            this.ClientSize = new System.Drawing.Size(584, 331);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -116,7 +116,6 @@
             this.Controls.Add(this.btnListadoArticulos);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

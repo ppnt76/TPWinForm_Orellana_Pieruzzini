@@ -10,3 +10,9 @@ C:\Users\carlos\Desktop\tpProg3Pruebas\TPWinForm_Orellana_Pieruzzini\Dominio\obj
 C:\Users\carlos\Desktop\tpProg3Pruebas\TPWinForm_Orellana_Pieruzzini\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\carlos\Desktop\tpProg3Pruebas\TPWinForm_Orellana_Pieruzzini\Dominio\obj\Debug\Dominio.dll
 C:\Users\carlos\Desktop\tpProg3Pruebas\TPWinForm_Orellana_Pieruzzini\Dominio\obj\Debug\Dominio.pdb
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\Dominio\bin\Debug\Dominio.dll
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\Dominio\bin\Debug\Dominio.pdb
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\Dominio\obj\Debug\Dominio.dll
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\Dominio\obj\Debug\Dominio.pdb

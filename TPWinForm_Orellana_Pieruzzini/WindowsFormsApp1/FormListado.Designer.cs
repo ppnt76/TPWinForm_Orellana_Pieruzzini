@@ -38,9 +38,9 @@
             this.dgvLista.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
             this.dgvLista.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvLista.Location = new System.Drawing.Point(12, 29);
+            this.dgvLista.Location = new System.Drawing.Point(26, 29);
             this.dgvLista.Name = "dgvLista";
-            this.dgvLista.Size = new System.Drawing.Size(521, 255);
+            this.dgvLista.Size = new System.Drawing.Size(546, 255);
             this.dgvLista.TabIndex = 0;
             // 
             // btnSalir
@@ -57,7 +57,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(534, 331);
+            this.ClientSize = new System.Drawing.Size(584, 331);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.dgvLista);
             this.Name = "FormListado";
