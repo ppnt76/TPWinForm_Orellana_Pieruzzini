@@ -19,13 +19,13 @@ namespace Catologo
 
             conexion.ConnectionString = "data source= DESKTOP-GPR5PDL\\SQLEXPRESS; initial catalog=CATALOGO_DB; integrated security=sspi";
             comando.CommandType = System.Data.CommandType.Text;
-            comando.CommandText = "select P.Id, P.Codigo, P.Nombre, P.Descripcion, P.Precio, C.Descripcion, D.Descripcion from ARTICULOS P, CATEGORIAS C, MARCAS D WHERE(P.Id = C.Id) and(P.Id = D.Id)";
+            comando.CommandText = "select P.Id, P.Codigo, P.Nombre, P.Descripcion, D.Descripcion, C.Descripcion, P.Precio  from ARTICULOS P, CATEGORIAS C, MARCAS D WHERE(P.Id = C.Id) and(P.Id = D.Id)";            
             comando.Connection = conexion;
 
             conexion.Open();
             lector = comando.ExecuteReader();
 
-            while(lector.Read())
+            while (lector.Read())
             {
                 Articulos aux = new Articulos();
                 aux.Codigo = lector.GetString(1);
@@ -33,12 +33,12 @@ namespace Catologo
                 aux.Descripcion = lector.GetString(3);
 
                 aux.Marca = new Marcas();
-                aux.Marca.DescripcionMarca = lector.GetString(6);
+                aux.Marca.DescripcionMarca = lector.GetString(4);
 
                 aux.categoria = new Categoria();
                 aux.categoria.DescripcionCategoria = lector.GetString(5);
 
-                aux.Precio = lector.GetDecimal(4);
+                aux.Precio = lector.GetDecimal(6);
                 
                 lista.Add(aux);
 
@@ -53,7 +53,6 @@ namespace Catologo
         {
             SqlConnection conexion = new SqlConnection();
             SqlCommand comando = new SqlCommand();
-            SqlDataReader lector;
 
             conexion.ConnectionString = "data source= DESKTOP-GPR5PDL\\SQLEXPRESS; initial catalog=CATALOGO_DB; integrated security=sspi";
             comando.CommandType = System.Data.CommandType.Text;

@@ -61,6 +61,7 @@
             this.txtboxBusqueda.Name = "txtboxBusqueda";
             this.txtboxBusqueda.Size = new System.Drawing.Size(300, 20);
             this.txtboxBusqueda.TabIndex = 2;
+            this.txtboxBusqueda.TextChanged += new System.EventHandler(this.txtboxBusqueda_TextChanged);
             // 
             // label1
             // 

@@ -8,11 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Catologo;
+using Dominio;
 
 namespace WindowsFormsApp1
 {
     public partial class FormBusqueda : Form
     {
+        private List<Articulos> Lista = null;
+
         public FormBusqueda()
         {
             InitializeComponent();
@@ -38,6 +41,25 @@ namespace WindowsFormsApp1
             dgvLista.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dgvLista.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCells;
             dgvLista.BackgroundColor = System.Drawing.SystemColors.Control;
+        }
+
+        private void txtboxBusqueda_TextChanged(object sender, EventArgs e)
+        {
+            List<Articulos> Busqueda;
+            CatologoArticulo BuscarArticulo = new CatologoArticulo();
+            Lista = BuscarArticulo.Listar();
+            if(txtboxBusqueda.Text == " ")
+            {
+                dgvLista.DataSource = Lista;
+                Busqueda = Lista;
+            }
+            else
+            {
+                Busqueda = Lista.FindAll(Y => Y.Descripcion.ToLower().Contains(txtboxBusqueda.Text.ToLower()) || Y.Nombre.ToLower().Contains(txtboxBusqueda.Text.ToLower()) || Y.Codigo.ToLower().Contains(txtboxBusqueda.Text.ToLower()));
+                dgvLista.DataSource = Busqueda;
+            }
+            dgvLista.DataSource = Busqueda;
+
         }
     }
 }
