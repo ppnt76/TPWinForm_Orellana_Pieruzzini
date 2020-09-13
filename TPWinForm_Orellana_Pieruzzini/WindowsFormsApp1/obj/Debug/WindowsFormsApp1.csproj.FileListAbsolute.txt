@@ -46,3 +46,5 @@ C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\Wind
 C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormBusqueda.resources
+C:\Users\carlos\Desktop\git\TP´Progamacion 3\TPWinForm_Orellana_Pieruzzini\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.FormEliminar.resources

@@ -7,13 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Catologo;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class FormBusqueda : Form
     {
-        public Form1()
+        public FormBusqueda()
         {
             InitializeComponent();
             this.MaximizeBox = false;
@@ -26,27 +26,18 @@ namespace WindowsFormsApp1
             this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
-        private void btnListadoArticulos_Click(object sender, EventArgs e)
-        {
-            Form formulario = new FormListado();
-            formulario.Show();
-        }
-
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Dispose();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void FormBusqueda_Load(object sender, EventArgs e)
         {
-            Form formulario = new FormBusqueda();
-            formulario.Show();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Form formulario = new FormEliminar();
-            formulario.Show();
+            CatologoArticulo catalogo = new CatologoArticulo();
+            dgvLista.DataSource = catalogo.Listar();
+            dgvLista.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            dgvLista.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCells;
+            dgvLista.BackgroundColor = System.Drawing.SystemColors.Control;
         }
     }
 }

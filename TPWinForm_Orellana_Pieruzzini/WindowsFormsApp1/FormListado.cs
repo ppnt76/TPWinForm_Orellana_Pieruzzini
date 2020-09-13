@@ -17,7 +17,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;    //centrar pantalla.
-            this.ClientSize = new Size(600, 370);
+            this.ClientSize = new Size(700, 370);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
 

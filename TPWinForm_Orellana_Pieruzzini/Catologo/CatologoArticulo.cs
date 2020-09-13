@@ -49,7 +49,22 @@ namespace Catologo
 
         }
 
-        
+        public void Eliminar(string codigo)
+        {
+            SqlConnection conexion = new SqlConnection();
+            SqlCommand comando = new SqlCommand();
+            SqlDataReader lector;
+
+            conexion.ConnectionString = "data source= DESKTOP-GPR5PDL\\SQLEXPRESS; initial catalog=CATALOGO_DB; integrated security=sspi";
+            comando.CommandType = System.Data.CommandType.Text;
+            comando.Connection = conexion;
+            conexion.Open();
+
+            comando.CommandText = "Delete ARTICULOS WHERE Codigo=@codigo";
+            comando.Parameters.AddWithValue("@codigo", codigo);
+            comando.ExecuteNonQuery();
+            conexion.Close();
+        }
         
     }
      

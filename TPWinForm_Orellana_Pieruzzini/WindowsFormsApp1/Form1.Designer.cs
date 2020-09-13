@@ -65,6 +65,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Busqueda";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -92,6 +93,7 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "Eliminar";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
